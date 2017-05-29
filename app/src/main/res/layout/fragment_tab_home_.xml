@@ -1,0 +1,102 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.esprit.instasinger.Fragments.MusicFragment.MusicHome_Fragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="3"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical"
+            >
+
+
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                >
+
+
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:tabGravity="fill"
+
+
+                    app:tabMode="fixed">
+
+
+
+
+
+                    <android.support.design.widget.TabItem
+                        android:text="Followed"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/shoot"
+
+                        />
+
+
+                    <android.support.design.widget.TabItem
+                        android:text="Liked"
+
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/profil"
+                        />
+
+
+
+                    <android.support.design.widget.TabItem
+                        android:text="Favorits"
+
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/favoris"
+                        />
+                </android.support.design.widget.TabLayout>
+
+
+
+            </android.support.design.widget.AppBarLayout>
+
+                <FrameLayout
+
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/music_Container"
+                    >
+
+
+
+                </FrameLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>
