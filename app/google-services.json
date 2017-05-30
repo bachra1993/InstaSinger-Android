@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "192727300836",
+    "firebase_url": "https://instasinger-e9947.firebaseio.com",
+    "project_id": "instasinger-e9947",
+    "storage_bucket": "instasinger-e9947.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192727300836:android:d32c801ee036ccfc",
+        "android_client_info": {
+          "package_name": "trabelsifiras.com.instasinger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192727300836-urlreddj0cc41h2gv1ro3nvh4jgk8pgt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trabelsifiras.com.instasinger",
+            "certificate_hash": "C82D5B42AC1E1893BAA2C1C7519C94A102CB3393"
+          }
+        },
+        {
+          "client_id": "192727300836-scdqc9eu1d7l4fo4p52b5p7siont8rdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9FBhYADU4LMepRvfNM2CDG06qL1kP2Yo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192727300836-i8jdp2bkf8imlr9p6tu924p05tp19ieu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Bachra.InstaSinger"
+              }
+            },
+            {
+              "client_id": "192727300836-scdqc9eu1d7l4fo4p52b5p7siont8rdp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

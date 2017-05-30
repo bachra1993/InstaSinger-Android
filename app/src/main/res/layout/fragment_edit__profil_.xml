@@ -1,0 +1,129 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.esprit.instasinger.Fragments.Edit_Profil_Fragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary"
+            android:id="@+id/tool"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Edit Profil"
+                        android:textSize="25sp"
+                        android:textColor="@color/white"
+                        android:layout_centerInParent="true"
+
+                        android:textStyle="normal|bold" />
+
+
+
+            </RelativeLayout>
+        </Toolbar>
+
+        <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fitsSystemWindows="true"
+            android:layout_below="@+id/tool"
+            >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+
+
+                >
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:src="@drawable/uploadphoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/input_picture"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="8dp">
+                    <EditText android:id="@+id/input_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapWords"
+                        android:hint="Name" />
+                </android.support.design.widget.TextInputLayout>
+
+                <!--  UserName Label -->
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp">
+                    <EditText android:id="@+id/input_username"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapWords"
+                        android:hint="UserName" />
+                </android.support.design.widget.TextInputLayout>
+
+                <!-- Email Label -->
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    >
+                    <EditText android:id="@+id/input_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:hint="Email" />
+                </android.support.design.widget.TextInputLayout>
+
+
+
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:background="#FFFF5722"
+                    android:id="@+id/btn_done"
+
+                    android:padding="12dp"
+                    android:text="Done"/>
+
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</FrameLayout>

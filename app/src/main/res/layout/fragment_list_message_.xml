@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.esprit.instasinger.Fragments.ChatFragment.ListMessage_Fragment">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+ <android.support.design.widget.AppBarLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/appbar"
+     >
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="30sp"
+       android:text="Messages"
+       android:textColor="@color/white"
+       android:layout_centerInParent="true"
+       />
+  </RelativeLayout>
+ </android.support.design.widget.AppBarLayout>
+
+
+
+
+ <ListView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:id="@+id/lv_listMessage"
+     android:layout_below="@+id/appbar"
+     ></ListView>
+ <android.support.design.widget.FloatingActionButton
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:clickable="true"
+     app:fabSize="normal"
+     app:srcCompat="@drawable/ic_add_box_white_24dp"
+     android:id="@+id/floatingActionButton"
+
+     android:layout_alignParentBottom="true"
+     android:layout_alignParentRight="true"
+     android:layout_marginBottom="10dp"
+     android:layout_marginRight="10dp"
+     />
+
+
+</RelativeLayout>
+</FrameLayout>
